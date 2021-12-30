@@ -8,24 +8,8 @@
 </head>
 <body>
     <h1> Data parsing JSON from API</h1>
-    <p> 
-        <span id="ans"></span>
-    </p>
-    <script>
-        const url = 'https://s3.amazonaws.com/open-to-cors/assignment.json'
-        async function getISS(){
-            try{
-                const response = await fetch(url);
-                const data = await response.json();
-                const count = data.count;
-                console.log(data.products);    
-            }
-            catch (e) {
-                console.log("Error!");
-                console.log(e);
-            }    
-        }
-        getISS();
-    </script>
+    <div class="item">
+    </div>
+    <script src = "task1.js"></script>
 </body>
 </html>

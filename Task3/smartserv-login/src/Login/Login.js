@@ -1,4 +1,5 @@
 import './Login.css';
+import validateEmail from '../validate.js'
 
 
 function LoginUi() {
@@ -18,14 +19,14 @@ function LoginUi() {
            
            <div>
         
-             <input type="text" placeholder="Username" className="name"/>
+             <input type="text" placeholder="Username" id="email" className="name"/>
            </div>
            <div className="second-input">
              
              <input type="password" placeholder="Password" className="name"/>
            </div>
           <div className="login-button">
-          <button>Login</button>
+            <button type="buttton" onClick={validateEmail()}>Login</button>
           </div>
            
             <p className="link">

@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100%;
+    margin: 5vh;
+
+}
+
+
+.top{
+    display: flex;
+    
+
+}
+
+.left{
+    display: flex;
+    padding: 5vh;
+    background: #FFFFFF;
+    width: 48%;
+    margin-right: 3vh;
+    border: 2px solid #777777;
+}
+
+.right{
+    display: flex;
+    padding: 5vh;
+    width: 48%;
+    background: #FFFFFF;
+    border: 2px solid #777777;
+}
+
+.stepDiv{
+    
+    display: flex;
+}
+
+.contentDiv{
+    
+    margin-left: 3vh;
+    
+}
+.flex{
+    display: flex;
+}
+
+select{
+    height: 3vh;
+}
+
+.flex h5{
+    width: 20vh;
+    margin-bottom: 3vh;
+    margin-top: 0;
+}
+
+.flex select{
+    width: 30vh;
+    height: 5vh;
+}
+
+.bottom{
+    padding: 5vh;
+    margin-top: 3vh;
+    background-color: #FFFFFF;
+    display: flex;
+    border: 2px solid #777777;
+}
+
+.bottom .stepDiv h4{
+    margin-top: 0;
+}
+
+ul{
+    list-style: none;
+    border: 2px solid; 
+    padding-left: 1vh;
+}
+
+.availFields{
+    margin-right: 3vh;
+    
+}
+
+
+.arrows{
+    display: block;
+}

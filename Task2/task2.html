@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div class="main">
+        <div class="outerDiv">
+            <h3 class="title">Import Elements</h3>
+            <div class="top">
+                <div class="left">
+                    <div class="stepDiv">
+                        <h4>
+                            Step 1:
+                        </h4>
+                    </div>
+                    <div class="contentDiv">
+                        <h5>
+                            Select File
+                        </h5>
+                        <input type="file" name="file" id="file">
+                        <h5>
+                            Supported File type : CSV, JSON
+                        </h5>
+                    </div>
+                </div>
+                <div class="right">
+
+                    <div class="stepDiv">
+                        <h4>
+                            Step 2:
+                        </h4>
+                    </div>
+                    <div class="contentDiv">
+                        <h5>
+                            Specify format
+                        </h5>
+                        <div class="flex">
+                            <h5>
+                                File Type
+                            </h5>
+                            <select name="file_type" id="file">
+                                <option value="CSV">
+                                    .CSV
+                                </option>
+                                <option value="JSON">
+                                    .JSON
+                                </option>
+                            </select>
+                        </div>
+                        <div class="flex">
+                            <h5>
+                                Character Encoding
+                            </h5>
+                            <select name="file_type" id="file">
+                                <option value="UTF-8">
+                                    UTF-8
+                                </option>
+                            </select>
+                        </div>
+                        <div class="flex">
+                            <h5>
+                                Delimiter
+                            </h5>
+                            <select name="file_type" id="file">
+                                <option value="comma">
+                                    comma
+                                </option>
+                                
+                            </select>
+                        </div>
+                        <div class="flex">
+                            <h5>
+                                Hash Header
+                            </h5>
+                            <input type="checkbox" name="header" id="header">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="stepDiv">
+                    <input type="checkbox" name="header" id="header">
+                    <h4>
+                        Step 3:
+                    </h4>
+                </div>
+                <div class="contentDiv">
+                    <h5>
+                        Display handing
+                    </h5>
+                    <h5>
+                        Select the fields to be Displayed
+                    </h5>
+                    <div class="fields flex">
+                        <div class="availFields">
+                            <h5>
+                                Available Fields
+                            </h5>
+                            <div class="fieldsavail">
+                                <ul>
+                                    <li>ProductID</li>
+                                    <li>Subcategory</li>
+                                    <li>Title</li>
+                                    <li>Price</li>
+                                    <li>Popularity</li>
+                                    <li>Description</li>
+                                    <li>Rating</li>
+                                    <li>UTM Source</li>
+                                    <li>UTM Medium</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="arrows">
+                            <button class="rightarrow" >
+                                =>
+                            </button>
+                            <button class = "leftarrow">
+                                '<='
+                            </button>
+                        </div>
+
+                        <div class="availFields">
+                            <h5>
+                                Fields To be Displayed
+                            </h5>
+                            <div class="fieldsavail">
+                                <ul>
+                                    <li>ProductID</li>
+                                    <li>Subcategory</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src = "task2.js"></script>
+</body>
+</html>
